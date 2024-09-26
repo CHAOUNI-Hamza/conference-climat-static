@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body  {
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/* start globale */
+.h2 {
+    font-size: 30px;
+	font-weight: 700;
+    margin-bottom: 32px;
+    position: relative;
+}
+h2:after {
+    content: '';
+    width: 78px;
+    height: 4px;
+    background: #188bca;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+/* end globale */
+/* start navbar */
+.navbar {
+    background: white !important;
+}
+.navbar .nav-link {
+    padding-bottom: 3px;
+    font-weight: 500;
+}
+.navbar .nav-link.active {
+    border-bottom: 2px solid red;
+}
+/* end navabr */
+/* Start carousel */
+.carousel img {
+	height: 600px;
+}
+.carousel-caption {
+    right: 56%;
+    bottom: 12.25rem;
+    text-align: left;
+	width: 100%;
+}
+/* end carousel */
+/* start home-about-section */
+.st-content {
+    border: 1px solid #0000001c;
+    border-radius: 9px;
+    padding: 30px;
+	margin-top: 10px;
+}
+.sc-text, .sc-widget {
+    padding-top: 43px;
+}
+/* end home-about-section */
+/* start gallery */
+.gallery .image {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	border-radius: 12px;
+}
+/* end gallery */
+/* start FLIP */
+.flip {
+    background: #ef812c;
+    color: white;
+}
+.cd-item {
+	border: 1px solid #ffffff38;
+	text-align: center;
+	border-radius: 8px;
+}
+.flip-clock {
+		font-size: 57px;
+		font-weight: bold;
+}
+/* end FLIP */
+/* start accueil */
+.accueil .lead {
+	font-size: 16px;
+    color: #f44949;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	font-weight: 600;
+}
+.accueil .title-var {
+    font-size: 36px;
+    font-weight: bold;
+}
+.accueil .text-big {
+	color: #00000091;
+}
+/* end accueil */
+/* start comite */
+.comite .card-header {
+	background: #f0773c;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+	padding: 15px;
+}
+.comite .list-group-item span {
+	color: #ce3506;
+}
+/* end comite */
+/* start agenda */
+.agenda .bi {
+	color: #ff0000 !important;
+    margin-right: 6px;
+    margin-bottom: 3px;
+}
+/* end agenda */
+/* start axes */
+.axes .number {
+	background: #f6596e;
+	color: white;
+	padding: 5px 9px;
+	border-radius: 50%;
+	margin-right: 14px;
+}
+/* end axes */
+/* start local */
+/* end local */
