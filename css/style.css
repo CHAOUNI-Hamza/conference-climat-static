@@ -100,7 +100,7 @@ h2:after {
 /* end accueil */
 /* start comite */
 .comite .card-header {
-	background: #f0773c;
+	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
     color: white;
     font-weight: bold;
     letter-spacing: 2px;
@@ -119,12 +119,32 @@ h2:after {
 /* end agenda */
 /* start axes */
 .axes .number {
-	background: #f6596e;
-	color: white;
-	padding: 5px 9px;
-	border-radius: 50%;
-	margin-right: 14px;
+    margin-right: 10px;
+    color: #ee8425;
 }
 /* end axes */
+/* start axes-list */
+.axes-lists svg {
+    color: green;
+}
+/* end axes-list */
+/* start inscription */
+.inscription svg {
+    color: green;
+    margin-right: 10px;
+}
+/* end inscription */
+/* start valoration */
+.valoration {
+    background: aliceblue;
+    padding: 30px;
+}
+/* end valoration */
 /* start local */
 /* end local */
+/* start footer */
+footer {
+    background: #171822;
+    color: white;
+}
+/* end footer */
